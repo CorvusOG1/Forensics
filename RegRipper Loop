@@ -1,0 +1,2 @@
+### change file path as needed  ###
+for /r %i in (*) do (C:\Tools\RegRipper3.0-master\RegRipper3.0-master\rip.exe -r %i -a > %i.txt)
